@@ -1,7 +1,7 @@
 package kr.hs.dgsw.back.Service;
 
 import kr.hs.dgsw.back.Domain.User;
-import kr.hs.dgsw.back.Domain.UserMapper;
+import kr.hs.dgsw.back.Mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

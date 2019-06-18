@@ -2,70 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9ec1b8e-66d3-4a10-864a-4d3fd755310f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/back/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/back.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/META-INF/back.main.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/BackApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Configuration/CORS$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Configuration/CORS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Controller/BasketController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Controller/CommentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Controller/PostController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/Basket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/BasketMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/Comment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/CommentMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/Post.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/PostMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/ProductMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/BasketService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/BasketServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/CommentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/CommentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/PostService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/PostServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/ProductServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/resources/mappers/Basket.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/resources/mappers/Comment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/resources/mappers/Post.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/resources/mappers/Product.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/resources/mappers/User.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/out/production/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/User/LoginView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/BackApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Configuration/CORS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/Basket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/Post.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/BasketService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/CommentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/PostService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/test/java/kr/hs/dgsw/back/BackApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front" beforeDir="false" afterPath="$PROJECT_DIR$/front" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/BackApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/test/java/kr/hs/dgsw/back/BackApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/back/back.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/META-INF/back.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/BackApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Configuration/CORS$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Configuration/CORS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Controller/BasketController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Controller/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Controller/PostController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/Basket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/BasketMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/CommentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/Post.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/PostMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/ProductMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Domain/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/BasketService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/BasketServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/CommentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/PostService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/PostServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/classes/kr/hs/dgsw/back/Service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/resources/mappers/Basket.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/resources/mappers/Comment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/resources/mappers/Post.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/resources/mappers/Product.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/resources/mappers/User.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/out/production/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/BasketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/BasketMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/CommentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/PostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/BasketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/CommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/PostServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/mappers/Basket.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/mappers/Comment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/mappers/Post.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/mappers/Product.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/mappers/User.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/resources/schema.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/Profile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/User/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/back/.gradle/" />
@@ -144,33 +153,57 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/PostController.java">
+        <entry file="file://$PROJECT_DIR$/back/src/main/resources/mappers/Post.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+            <state relative-caret-position="240">
+              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/User/index.js">
+        <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/PostService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Mapper/PostMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/PostServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/PostController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/src/User/LoginView.js">
+        <entry file="file://$PROJECT_DIR$/back/src/main/resources/schema.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="-198">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -184,38 +217,50 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>react-scripts</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>react-app-rewired</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/front" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/BackApplication.java" />
-        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/CommentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Mapper/BasketMapper.java" />
         <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/CommentMapper.java" />
         <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/BasketMapper.java" />
         <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/ProductMapper.java" />
-        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/BasketServiceImpl.java" />
-        <option value="$PROJECT_DIR$/back/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/back/src/main/resources/mappers/Basket.xml" />
         <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/PostMapper.java" />
-        <option value="$PROJECT_DIR$/back/src/main/resources/mappers/Post.xml" />
-        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/PostServiceImpl.java" />
-        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/BasketController.java" />
-        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/CommentController.java" />
-        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/UserController.java" />
-        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/UserService.java" />
         <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/UserMapper.java" />
-        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/back/src/main/resources/mappers/User.xml" />
-        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/PostController.java" />
         <option value="$PROJECT_DIR$/front/src/Profile/index.js" />
         <option value="$PROJECT_DIR$/front/src/Profile/LoginView.js" />
         <option value="$PROJECT_DIR$/front/src/User/index.js" />
         <option value="$PROJECT_DIR$/front/src/User/LoginView.js" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/BasketServiceImpl.java" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/CommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/back/src/main/resources/mappers/User.xml" />
+        <option value="$PROJECT_DIR$/back/src/main/resources/mappers/Basket.xml" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/BasketController.java" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/back/src/main/resources/mappers/Post.xml" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/PostService.java" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Mapper/PostMapper.java" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/PostServiceImpl.java" />
+        <option value="$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/PostController.java" />
+        <option value="$PROJECT_DIR$/back/src/main/resources/schema.sql" />
+        <option value="$PROJECT_DIR$/front/package.json" />
       </list>
     </option>
   </component>
@@ -230,14 +275,81 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="shoppingmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="Mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shoppingmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shoppingmall" type="b2602c69:ProjectViewProjectNode" />
@@ -258,6 +370,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,7 +394,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -318,10 +431,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/front/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="Spring Boot.BackApplication" />
+      <item itemvalue="npm.start" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -334,6 +463,8 @@
       <option name="presentableId" value="Default" />
       <updated>1560836023049</updated>
       <workItem from="1560836025992" duration="9090000" />
+      <workItem from="1560848528223" duration="758000" />
+      <workItem from="1560850675294" duration="1858000" />
     </task>
     <task id="LOCAL-00001" summary="front first">
       <created>1560842805063</created>
@@ -346,83 +477,105 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9090000" />
+    <option name="totallyTimeSpent" value="11706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info id="npm" sideWeight="0.5010571" side_tool="true" weight="0.24966443" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" sideWeight="0.49932885" weight="0.32907802" />
-      <window_info anchor="bottom" id="Build" weight="0.32907802" />
-      <window_info anchor="bottom" id="Spring" weight="0.32765958" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50067115" side_tool="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Messages" weight="0.32907802" />
-      <window_info anchor="bottom" id="Java Enterprise" show_stripe_button="false" weight="0.32907802" />
-      <window_info anchor="bottom" id="Database Changes" weight="0.32907802" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32907802" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="npm" order="7" sideWeight="0.5021097" side_tool="true" visible="true" weight="0.25637585" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32765958" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" weight="0.3295302" />
-      <window_info active="true" anchor="right" id="Database" visible="true" weight="0.16442953" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32765958" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" weight="0.32765958" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" show_stripe_button="false" weight="0.32907802" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.16442953" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.25637585" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="npm" order="7" sideWeight="0.5021097" side_tool="true" weight="0.25637585" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32765958" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" weight="0.32765958" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" show_stripe_button="false" weight="0.32907802" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.16442953" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.3295302" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/front" />
+    </ignored-roots>
     <MESSAGE value="front first" />
     <option name="LAST_COMMIT_MESSAGE" value="front first" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3615501f-da39-4e3e-9f53-2233ab99f4d5/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/2.0.1/d3906c413440001b3d63ae44eaec2535788aafeb/mybatis-spring-boot-autoconfigure-2.0.1-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -433,9 +586,7 @@
     <entry file="file://$PROJECT_DIR$/back/back.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/back/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/back/settings.gradle" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.5.RELEASE/69ae2819b295603563b95f79abae53f2631c5b94/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceInitializerInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -443,13 +594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/back/build.gradle" />
     <entry file="uml://SPRING/mappedClass=kr.hs.dgsw.back.BackApplication">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -851,12 +996,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.3236780258519392" x="771.3538884390553" y="612.1862374563103" />
+          <settings layout="Hierarchic Group" zoom="1.3236780258519392" x="771.0" y="612.0" />
           <SelectedNodes />
           <Categories>
             <Category>Local context</Category>
             <Category>Properties</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -933,26 +1079,8 @@
     <entry file="file://$PROJECT_DIR$/back/src/main/resources/mappers/Product.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/resources/mappers/Comment.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/org/springframework/beans/factory/annotation/annotations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="72" lean-forward="true" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/BasketService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/org/springframework/beans/factory/annotation/annotations.xml" />
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/BasketService.java" />
     <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/BasketMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -977,119 +1105,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/CommentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/BackApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/Basket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/BasketServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/resources/mappers/Basket.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="88" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/BackApplication.java" />
+    <entry file="file://$PROJECT_DIR$/back/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/Basket.java" />
     <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Domain/PostMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/BasketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/PostServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-          <folding>
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/resources/mappers/Post.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/resources/mappers/User.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1100,17 +1122,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/CommentController.java">
+    <entry file="file://$PROJECT_DIR$/front/src/User/LoginView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        <state relative-caret-position="195">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1124,10 +1139,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/User/LoginView.js">
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/BasketServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="60">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/CommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/resources/mappers/User.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/resources/mappers/Basket.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/BasketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/resources/mappers/Comment.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/resources/mappers/Post.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Mapper/PostMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/PostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Service/PostServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/java/kr/hs/dgsw/back/Controller/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/node_modules/react-app-rewired/config-overrides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/config-overrides.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/src/main/resources/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>

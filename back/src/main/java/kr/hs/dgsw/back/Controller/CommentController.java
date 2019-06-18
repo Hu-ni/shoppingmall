@@ -1,6 +1,7 @@
 package kr.hs.dgsw.back.Controller;
 
 import kr.hs.dgsw.back.Domain.Comment;
+import kr.hs.dgsw.back.Mapper.CommentMapper;
 import kr.hs.dgsw.back.Service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -13,13 +14,13 @@ public class CommentController{
     CommentService cs;
 
     @GetMapping("/comment/find/all/post/{id}")
-    public List<Comment> findAllByPostId(@PathVariable Long id) {
-        return this.cs.findAllByPostId(id);
+    public List<Comment> findAllByPostId(@PathVariable Long postId) {
+        return this.cs.findAllByPostId(postId);
     }
 
     @GetMapping("/comment/find/all/user/{id}")
-    public List<Comment> findAllByUserId(@PathVariable Long id) {
-        return this.cs.findAllByUserId(id);
+    public List<Comment> findAllByUserId(@PathVariable Long userId) {
+        return this.cs.findAllByUserId(userId);
     }
 
     @GetMapping("/comment/find/{id}")

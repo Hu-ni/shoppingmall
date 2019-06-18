@@ -1,7 +1,7 @@
 package kr.hs.dgsw.back.Service;
 
 import kr.hs.dgsw.back.Domain.Basket;
-import kr.hs.dgsw.back.Domain.BasketMapper;
+import kr.hs.dgsw.back.Mapper.BasketMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

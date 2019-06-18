@@ -1,6 +1,7 @@
 package kr.hs.dgsw.back.Controller;
 
 import kr.hs.dgsw.back.Domain.Basket;
+import kr.hs.dgsw.back.Mapper.BasketMapper;
 import kr.hs.dgsw.back.Service.BasketService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -17,14 +18,14 @@ public class BasketController {
         return this.bs.findAllByUserId(userId);
     }
 
-    @GetMapping("/basket/find/id/{id}")
+    @GetMapping("/basket/find/{id}")
     public Basket findById(@PathVariable Long id) {
         return this.bs.findById(id);
     }
 
     @GetMapping("/basket/find/product/{id}")
-    public Basket findByProductId(@PathVariable Long id) {
-        return this.bs.findByProductId(id);
+    public Basket findByProductId(@PathVariable Long productId) {
+        return this.bs.findByProductId(productId);
     }
 
     @PostMapping("/basket/add")

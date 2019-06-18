@@ -1,7 +1,7 @@
 package kr.hs.dgsw.back.Service;
 
 import kr.hs.dgsw.back.Domain.Comment;
-import kr.hs.dgsw.back.Domain.CommentMapper;
+import kr.hs.dgsw.back.Mapper.CommentMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,10 +1,10 @@
 use web;
 
+drop table if exists basket;
 drop table if exists comment;
 drop table if exists post;
-drop table if exists basket;
-drop table if exists user;
 drop table if exists product;
+drop table if exists user;
 
 create table user(
                      seq bigint primary key auto_increment,

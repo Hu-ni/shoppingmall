@@ -1,7 +1,7 @@
 package kr.hs.dgsw.back.Service;
 
 import kr.hs.dgsw.back.Domain.Post;
-import kr.hs.dgsw.back.Domain.PostMapper;
+import kr.hs.dgsw.back.Mapper.PostMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,12 +23,12 @@ public class PostServiceImpl implements PostService{
     }
 
     @Override
-    public List<Post> findAllByCategory(int mainCategory) {
+    public List<Post> findAllByMainCategory(int mainCategory) {
         return this.pm.findAllByMainCategory(mainCategory);
     }
 
     @Override
-    public List<Post> findAllByCategory(int mainCategory, int subCategory) {
+    public List<Post> findAllByMainCategoryAndSubCategory(int mainCategory, int subCategory) {
         return this.pm.findAllByMainCategoryAndSubCategory(mainCategory, subCategory);
     }
 

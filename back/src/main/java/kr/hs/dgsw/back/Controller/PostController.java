@@ -19,14 +19,15 @@ public class PostController{
     }
 
     @GetMapping("/post/find/all/product/{id}")
-    public List<Post> findAllByProductId(@PathVariable Long id) {
-        return this.ps.findAllByProductId(id);
+    public List<Post> findAllByProductId(@PathVariable Long productId) {
+        return this.ps.findAllByProductId(productId);
     }
 
     @GetMapping("/post/find/all/{mainCategory}/{subCategory}")
     public List<Post> findAllByCategory(@PathVariable Optional<Integer> mainCategory, @PathVariable Optional<Integer> subCategory) {
-        return mainCategory.map(main -> subCategory.isPresent() ? this.ps.findAllByCategory(main, subCategory.get())
-                : this.ps.findAllByCategory(main)).orElse(null);
+        return mainCategory.map(main -> subCategory.isPresent() ?
+                this.ps.findAllByMainCategoryAndSubCategory(main, subCategory.get())
+                : this.ps.findAllByMainCategory(main)).orElse(null);
     }
 
     @GetMapping("/post/find/{id}")
