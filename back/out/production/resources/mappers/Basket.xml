@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.hs.dgsw.back.Domain.BasketMapper">
+    <select id="findAllByUserId" parameterType="Long" resultType="List">
+        select * from basket where userId=#{userId}
+    </select>
+    <select id="findById" parameterType="Long" resultType="kr.hs.dgsw.back.Domain.Basket">
+        select * from basket where id=#{id}
+    </select>
+    <select id="findByProductId" parameterType="Long" resultType="kr.hs.dgsw.back.Domain.Basket">
+        select * from basket where productId=#{productId}
+    </select>
+
+    <insert id="add" parameterType="kr.hs.dgsw.back.Domain.Basket">
+        insert into basket (userId, productId, cnt)
+        values (#{userId}, #{productId}, #{cnt})
+    </insert>
+
+    <update id="modify" parameterType="kr.hs.dgsw.back.Domain.Basket">
+        update basket set cnt=#{cnt}
+        where id=#{id}
+    </update>
+
+    <delete id="deleteById" parameterType="Long">
+        delete from basket where id=#{id}
+    </delete>
+</mapper>
