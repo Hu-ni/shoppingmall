@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-06-24T05:53:31.746+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "nested exception is org.apache.ibatis.exceptions.PersistenceException: \r\n### Error querying database.  Cause: java.lang.UnsupportedOperationException\r\n### The error may exist in file [D:\\Java\\2019\\IdeaProjects\\shoppingmall\\back\\out\\production\\resources\\mappers\\Category.xml]\r\n### The error may involve kr.hs.dgsw.back.Mapper.CategoryMapper.findAllByParent\r\n### The error occurred while handling results\r\n### SQL: select * from category where parent=?\r\n### Cause: java.lang.UnsupportedOperationException",
+  "path": "/category/find/1"
+}

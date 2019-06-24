@@ -2,10 +2,10 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="kr.hs.dgsw.back.Mapper.CommentMapper">
-    <select id="findAllByPostId" parameterType="Long" resultType="List">
+    <select id="findAllByPostId" parameterType="Long" resultType="kr.hs.dgsw.back.Domain.Comment">
         select * from comment where postId=#{postId}
     </select>
-    <select id="findAllByUserId" parameterType="Long" resultType="List">
+    <select id="findAllByUserId" parameterType="Long" resultType="kr.hs.dgsw.back.Domain.Comment">
         select * from comment where userId=#{userId}
     </select>
     <select id="findById" parameterType="Long" resultType="kr.hs.dgsw.back.Domain.Comment">

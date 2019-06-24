@@ -1,0 +1,36 @@
+.app-header{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  .menu-bar{
+    list-style-type: none;
+    li{
+      float: left;
+      a{
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+        border-bottom: 3px solid transparent;
+        &:hover{
+
+          color:black;
+          border-bottom: 3px solid black;
+        }
+      }
+    }
+  }
+}
+.app-body{
+  position: absolute;
+  top:70px;
+  .board-bar{
+    list-style-type: none;
+
+    li{
+      border-bottom: 3px solid darkgray;
+      float: left;
+    }
+  }
+}
+

@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="back" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="demo.main" target="1.8" />
       <module name="demo.test" target="1.8" />

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.hs.dgsw.back.Mapper.CategoryMapper">
+    <select id="findAllMainCategory" resultType="kr.hs.dgsw.back.Domain.Category">
+        select * from category where parent is null
+    </select>
+    <select id="findAllByParent" parameterType="Long" resultType="kr.hs.dgsw.back.Domain.Category">
+        select * from category where parent=#{parent}
+    </select>
+
+    <insert id="add" parameterType="kr.hs.dgsw.back.Domain.Category">
+        insert into category (name, parent)
+        values (#{name}, #{parent})
+    </insert>
+
+    <update id="modify" parameterType="kr.hs.dgsw.back.Domain.Category">
+        update category set name=#{name}, parent=#{parent}
+                    where id=#{id}
+    </update>
+
+    <delete id="deleteById" parameterType="Long">
+        delete from category where id=#{id}
+    </delete>
+</mapper>

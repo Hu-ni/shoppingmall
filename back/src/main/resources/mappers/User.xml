@@ -16,9 +16,17 @@
     </select>
 
     <insert id="add" parameterType="kr.hs.dgsw.back.Domain.User">
-        insert into user (id, password, name, phoneNumber, postNumber, email)
-        values(#{id}, #{password}, #{name}, #{phoneNumber}, #{postNumber}, #{email})
-        <selectKey keyProperty="id" resultType="Long">
+        insert into user (id, password, name, phoneNumber, postNumber, locate, email)
+        values(#{id}, #{password}, #{name}, #{phoneNumber}, #{postNumber}, #{locate}, #{email})
+        <selectKey keyProperty="seq" resultType="Long">
+            select last_insert_id()
+        </selectKey>
+    </insert>
+
+    <insert id="addWithHomeNumber" parameterType="kr.hs.dgsw.back.Domain.User">
+        insert into user (id, password, name, homeNumber, phoneNumber, postNumber, locate, email)
+        values(#{id}, #{password}, #{name}, #{homeNumber}, #{phoneNumber}, #{postNumber}, #{locate}, #{email})
+        <selectKey keyProperty="seq" resultType="Long">
             select last_insert_id()
         </selectKey>
     </insert>

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-06-19T04:13:26.777+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "\r\n### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'test' for key 'id'\r\n### The error may exist in file [D:\\Java\\2019\\IdeaProjects\\shoppingmall\\back\\out\\production\\resources\\mappers\\User.xml]\r\n### The error may involve kr.hs.dgsw.back.Mapper.UserMapper.add-Inline\r\n### The error occurred while setting parameters\r\n### SQL: insert into user (id, password, name,phoneNumber, postNumber, locate, email)         values(?, ?, ?, ?, ?, ?, ?)\r\n### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'test' for key 'id'\n; Duplicate entry 'test' for key 'id'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'test' for key 'id'",
+  "path": "/user/add"
+}

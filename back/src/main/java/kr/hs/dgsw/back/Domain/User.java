@@ -12,7 +12,9 @@ public class User {
     private String password;
 
     private String name;
+    private long homeNumber = 0;
     private long phoneNumber;
     private int postNumber;
+    private String locate;
     private String email;
 }

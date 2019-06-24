@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-06-19T03:24:29.975+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "nested exception is org.apache.ibatis.executor.ExecutorException: Error selecting key or setting result to parameter object. Cause: org.apache.ibatis.reflection.ReflectionException: Could not set property 'id' of 'class kr.hs.dgsw.back.Domain.User' with value '6' Cause: java.lang.IllegalArgumentException: argument type mismatch",
+  "path": "/user/add"
+}

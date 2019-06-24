@@ -27,7 +27,8 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public Long add(User u) {
-        return this.um.add(u);
+        if(u.getHomeNumber() == 0) return this.um.add(u);
+        else return this.um.addWithHomeNumber(u);
     }
 
     @Override

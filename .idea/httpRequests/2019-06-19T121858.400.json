@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-06-19T03:18:58.677+0000",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name\n at [Source: (PushbackInputStream); line: 9, column: 2]",
+  "path": "/user/add"
+}

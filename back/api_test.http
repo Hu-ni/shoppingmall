@@ -1,0 +1,27 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST http://localhost:8080/user/add
+Content-Type: application/json
+
+{
+  "id": "test",
+  "password": "1234",
+  "name": "test",
+  "homeNumber": "05112345678",
+  "phoneNumber": "01012345678",
+  "postNumber": "12345",
+  "locate": "대구광역시 달성군 구지면 창리로 11길 93",
+  "email": "test@dgsw.hs.kr"
+}
+
+###
+
+GET http://localhost:8080/category/find
+Accept: application/json
+
+###

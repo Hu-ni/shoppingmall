@@ -9,6 +9,7 @@ public interface UserMapper {
     User findBySeq(@Param("seq") Long seq);
     User findByUser(User u);
     Long add(User u);
+    Long addWithHomeNumber(User u);
     int modify(User u);
     int deleteBySeq(@Param("seq") long seq);
     User findById(String id);
