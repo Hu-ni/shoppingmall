@@ -8,7 +8,7 @@
 
     <select id="findByUser" parameterType="kr.hs.dgsw.back.Domain.User"
             resultType="kr.hs.dgsw.back.Domain.User">
-        select * from user where id=#{id} and password=#{password}
+        select * from user where id=#{id} and password=#{pw}
     </select>
 
     <select id="findById" parameterType="String" resultType="kr.hs.dgsw.back.Domain.User">

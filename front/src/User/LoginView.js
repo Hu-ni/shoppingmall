@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import {Redirect} from "react-router-dom";
+import {inject, observer} from "mobx-react";
 
+@inject("stores")
+@observer
 class LoginView extends Component {
     state = {
         id: '',

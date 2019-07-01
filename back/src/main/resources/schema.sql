@@ -45,7 +45,7 @@ create table post(
      foreign key (productId) references product (id)
          on update cascade
          on delete cascade,
-     foreign key (mainCategory, SubCategory) references Category(parent, id)
+     foreign key (mainCategory, SubCategory) references category(parent, id)
          on update cascade
          on delete cascade
 )engine = InnoDB default charset = utf8mb4;

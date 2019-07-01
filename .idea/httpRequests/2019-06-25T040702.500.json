@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-06-25T07:07:02.004+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "nested exception is org.apache.ibatis.binding.BindingException: Parameter 'password' not found. Available parameters are [pw, id, param1, param2]",
+  "path": "/user/find"
+}

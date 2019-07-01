@@ -1,0 +1,10 @@
+{
+  "seq": 1,
+  "id": "test",
+  "name": "test",
+  "homeNumber": 5112345678,
+  "phoneNumber": 1012345678,
+  "postNumber": 12345,
+  "locate": "대구광역시 달성군 구지면 창리로 11길 93",
+  "email": "test@dgsw.hs.kr"
+}

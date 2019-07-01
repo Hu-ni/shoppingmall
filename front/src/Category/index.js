@@ -6,18 +6,26 @@ import CategoryList from "./CategoryList";
 @observer
 class Category extends Component {
     state={
-        sub: false
+        display: "none"
     };
 
     componentDidMount() {
         this.props.stores.CategoryStore.fetchMainItem();
     }
 
+
     render() {
         let c = this.props.stores.CategoryStore;
         return (
             <div>
-                {c.mainCategory && <CategoryList items={c.mainCategory}/>}
+                <ul className={'menu-bar'}>
+                    <CategoryList items={c.mainCategory}/>
+                </ul>
+                <br/>
+                <br/>
+                <ul className={'menu-bar'}>
+                    <CategoryList items={c.subCategory}/>
+                </ul>
             </div>
         );
     }

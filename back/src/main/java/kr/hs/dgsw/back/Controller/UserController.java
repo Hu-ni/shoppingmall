@@ -15,8 +15,8 @@ public class UserController {
         return this.us.findBySeq(seq);
     }
     @GetMapping("/user/find")
-    public User findByUser(@RequestBody User u){
-        return this.us.findByUser(u);
+    public User findByUser(@RequestParam String id, @RequestParam String pw){
+        return this.us.findByUser(id,pw);
     }
     @GetMapping("/user/find/id/{id}")
     public User findById(@PathVariable String id){

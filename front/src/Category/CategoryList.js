@@ -4,10 +4,7 @@ import CategoryListItem from "./CategoryListItem";
 const CategoryList = (props) =>{
     return(
         <div>
-            <ul className="menu-bar">
-                {props.items.map(category =>
-                    <CategoryListItem key={category.id} item={category}/>)}
-            </ul>
+            {props.items && props.items.map(item => <CategoryListItem key={item.id} item={item}/>)}
         </div>
     );
 };

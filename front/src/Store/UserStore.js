@@ -17,10 +17,10 @@ class UserStore{
         try {
             this.user = null;
             let response = await axios({
-                url: `http://localhost:8080/user/find`,
+                url: `http://localhost:8080/user/find?id=${u.id}&pw=${u.password}`,
                 method: 'get',
-                header: {
-                    'Content-type': 'application/json; charset=UTF-8'
+                headers: {
+                    'Content-type': 'application/json; charset=UTF-8',
                 },
                 data: JSON.stringify(u),
                 timeout: 3000

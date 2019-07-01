@@ -1,3 +1,134 @@
+POST http://localhost:8080/user/add
+Content-Type: application/json
+
+{
+  "id": "test",
+  "password": "1234",
+  "name": "test",
+  "homeNumber": "05112345678",
+  "phoneNumber": "01012345678",
+  "postNumber": "12345",
+  "locate": "대구광역시 달성군 구지면 창리로 11길 93",
+  "email": "test@dgsw.hs.kr"
+}
+
+<> 2019-07-01T013640.200.json
+
+###
+
+GET http://localhost:8080/user/find?id=test&pw=1234
+Accept: application/json
+
+<> 2019-06-25T040702.500.json
+
+###
+
+GET http://localhost:8080/user/find?id=test&pw=1234
+Accept: application/json
+
+<> 2019-06-25T040438.500.json
+
+###
+
+GET http://localhost:8080/user/find
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": "",
+  "password": ""
+}
+
+<> 2019-06-25T035618.200.json
+
+###
+
+GET http://localhost:8080/user/find
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": "test",
+  "password": "1234"
+}
+
+<> 2019-06-25T035605.200.json
+
+###
+
+GET http://localhost:8080/user/find
+Content-Type: application/json
+Accept: application/json
+
+{
+"id": "test",
+  "password": "1234"
+}
+
+<> 2019-06-25T035429.200.json
+
+###
+
+POST http://localhost:8080/user/add
+Content-Type: application/json
+
+{
+  "id": "test",
+  "password": "1234",
+  "name": "test",
+  "homeNumber": "05112345678",
+  "phoneNumber": "01012345678",
+  "postNumber": "12345",
+  "locate": "대구광역시 달성군 구지면 창리로 11길 93",
+  "email": "test@dgsw.hs.kr"
+}
+
+<> 2019-06-25T032943.200.json
+
+###
+
+GET http://localhost:8080/category/find/1
+Accept: application/json
+
+<> 2019-06-25T024150.200.json
+
+###
+
+GET http://localhost:8080/category/find/4
+Accept: application/json
+
+<> 2019-06-25T024145.200.json
+
+###
+
+GET http://localhost:8080/category/find/4
+Accept: application/json
+
+<> 2019-06-25T024030.200.json
+
+###
+
+GET http://localhost:8080/category/find/3
+Accept: application/json
+
+<> 2019-06-25T024025.200.json
+
+###
+
+GET http://localhost:8080/category/find/2
+Accept: application/json
+
+<> 2019-06-25T024020.200.json
+
+###
+
+GET http://localhost:8080/category/find/1
+Accept: application/json
+
+<> 2019-06-25T024005.200.json
+
+###
+
 GET http://localhost:8080/category/find
 Accept: application/json
 

@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
-import {inject} from "mobx-react";
+import {inject, observer} from "mobx-react";
 import {Redirect} from "react-router-dom";
+import Tos from "./Tos";
 
-@inject("stores")
-
+@inject('stores')
+@observer
 class JoinView extends Component {
     state ={
         id: '',
@@ -25,17 +26,12 @@ class JoinView extends Component {
     };
 
     handleJoin = (e) => {
-        console.log("in");
-
         if(e.target.innerHTML ==='동의함'){
             console.log(this.props.stores.UserStore.add(this.state));
         }
-        console.log(e.target.innerHTML);
         this.setState({
             goToHome: true
-        })
-        console.log("out");
-
+        });
     };
 
     render() {
@@ -74,12 +70,10 @@ class JoinView extends Component {
                 <div>
                     회원약관
                     <div>
-                        <textarea/>
+                        <Tos handleJoin={this.handleJoin}/>
                     </div>
                 </div>
-                <div>
-                    회원약관에 <button onClick={this.handleJoin}>동의함</button><button>동의안함</button>
-                </div>
+
             </div>
         );
     }
